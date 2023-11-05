@@ -78,8 +78,8 @@ function __git.init
   __git.create_abbr glgg       git log --graph
   __git.create_abbr glgga      git log --graph --decorate --all
   __git.create_abbr glo        git log --oneline --decorate --color
-  __git.create_abbr glol       git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'
-  __git.create_abbr glols      git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat
+  __git.create_abbr glol       "git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'"
+  __git.create_abbr glols      "git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat"
   __git.create_abbr glog       git log --oneline --decorate --color --graph
   __git.create_abbr gloga      git log --oneline --decorate --color --graph --all
   __git.create_abbr glom       git log --oneline --decorate --color \(__git.default_branch\)..
